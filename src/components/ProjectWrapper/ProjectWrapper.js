@@ -1,7 +1,5 @@
 import uniqid from 'uniqid';
-//import GitHubIcon from '@material-ui/icons/GitHub';
 import GitHubIcon from '@mui/icons-material/GitHub';
-//import LaunchIcon from '@material-ui/icons/Launch';
 import LaunchIcon from '@mui/icons-material/Launch';
 import './ProjectWrapper.css';
 
@@ -19,7 +17,15 @@ const ProjectContainer = ({ project }) => (
 				))}
 			</ul>
 		)}
-
+		<div>
+			{project.image && (
+				<img
+					src={project.image}
+					alt={project.name}
+					className='project__image'
+				/>
+			)}
+		</div>
 		{project.sourceCode && (
 			<a
 				href={project.sourceCode}

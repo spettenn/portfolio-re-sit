@@ -1,6 +1,9 @@
+import rainyDays from './components/Projects/rainyDays.PNG';
+import funToPlay from './components/Projects/f2pFirstImg.PNG';
+
 const header = {
-	homepage: 'https://rajshekhar26.github.io/cleanfolio',
-	title: 'JS.',
+	homepage: 'https://github.com/spettenn',
+	title: 'AS.',
 };
 
 const about = {
@@ -17,28 +20,22 @@ const about = {
 
 const projects = [
 	{
-		name: 'Project 1',
+		name: 'Rainy Days',
 		description:
-			'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-		stack: ['SASS', 'TypeScript', 'React'],
-		sourceCode: 'https://github.com',
-		livePreview: 'https://github.com',
+			'This was my first initial project. The website is a e-comerce website selling rain related clothing.',
+		stack: ['HTML', 'CSS', 'JavaScript'],
+		sourceCode: 'https://github.com/spettenn/RainyDays',
+		livePreview: 'https://loving-mccarthy-1cddeb.netlify.app/',
+		image: rainyDays,
 	},
 	{
 		name: 'Project 2',
 		description:
 			'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-		stack: ['SASS', 'TypeScript', 'React'],
-		sourceCode: 'https://github.com',
-		livePreview: 'https://github.com',
-	},
-	{
-		name: 'Project 3',
-		description:
-			'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-		stack: ['SASS', 'TypeScript', 'React'],
-		sourceCode: 'https://github.com',
-		livePreview: 'https://github.com',
+		stack: ['HTML', 'CSS', 'JavaScript'],
+		sourceCode: 'https://github.com/spettenn/FunToPlay',
+		livePreview: 'https://musing-banach-c2b4b8.netlify.app',
+		image: funToPlay,
 	},
 ];
 

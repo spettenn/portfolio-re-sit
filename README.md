@@ -6,6 +6,10 @@ This portfolio is ment to be portfolio 1 assigment from Noroff. This portfolio i
 
 This is my first project using materia UI and react. I have used it before but not in a project. I have used it in a codepen to test it out. I have also used it in a project with a team but i was not the one who implemented it.
 
+## Design
+
+I wanted a simple one page portfolio, i feel like this is the new "meta" of design. This is also the first project i did with "night"mode. Working with this was a breeze as long as you stick to using css variables on color themes / schemes. i did alot of research on what portfolio pages should / could look like and i feel this turned out pretty good. The website is very responsive and works on all devices. I did not include a contact form on this, rather i used an integrated contact me where the user is directly prompted a email draft to me.
+
 ## Built with
 
 - React

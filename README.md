@@ -10,6 +10,8 @@ This is my first project using materia UI and react. I have used it before but n
 
 I wanted a simple one page portfolio, i feel like this is the new "meta" of design. This is also the first project i did with "night"mode. Working with this was a breeze as long as you stick to using css variables on color themes / schemes. i did alot of research on what portfolio pages should / could look like and i feel this turned out pretty good. The website is very responsive and works on all devices. I did not include a contact form on this, rather i used an integrated contact me where the user is directly prompted a email draft to me.
 
+This was the first time i was using materialUI with react, but it turned out great. I had a little problem working with icons in mUI, but i found the solution. Material UI comes with alot of prebuilt models / components, this made it easy from a design perspective to see what fits and what does not.
+
 ## Built with
 
 - React
